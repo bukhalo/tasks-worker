@@ -1,6 +1,3 @@
-# graphql-http worker template
-Minimal [Cloudflare Workers](https://workers.cloudflare.com) template for basic [graphql-http](https://github.com/graphql/graphql-http) server.
+# Cloudflare worker for Tasks
 
-```sh
-npx wrangler generate my-app https://github.com/bukhalo/worker-graphql-http
-```
+Repository contain simple Cloudflare Workers based backend for my [Tasks](https://github.com/bukhalo/tasks) app. 
