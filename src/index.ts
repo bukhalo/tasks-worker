@@ -49,9 +49,8 @@ export default {
 		env: Env,
 		ctx: ExecutionContext
 	): Promise<Response> {
-		// Start serving on `/graphql` using the handler
 		const [path, _search] = request.url.split('?');
-		if (path.endsWith('/graphql')) {
+		if (path.endsWith('/')) {
 			return handler(request);
 		} else {
 			return new Response(null, { status: 404 });
